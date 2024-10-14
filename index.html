@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Background Example</title>
+    <style>
+        body {
+            height: 750px;
+            width: 1500px;
+            background-color: #f0f0f0; 
+            background-image: url(wrkshop1.png);
+            background-size: cover;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            overflow: auto; 
+        }
+        .box {
+            width: 30%;
+            margin: 10px;
+            float: left;
+            padding: 20px;
+            background-color: #add8e6; 
+            border: 1px solid black;
+            text-align: center;
+        }
+        .box img {
+            width: 100px;
+            height: 100px;
+        }
+        .clear {
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <h2>Box 1</h2>
+            <img src="breakfast_item.jpg" alt="Placeholder Image">
+            <p>Breakfast</p>
+        </div>
+
+        <div class="box">
+            <h2>Box 2</h2>
+            <img src="lunch_item.jpg"alt="Placeholder Image">
+            <p>Lunch</p>
+        </div>
+
+        <div class="box">"
+            <h2>Box 3</h2>
+            <img src="dinner_menu.jpg" alt="Placeholder Image">
+            <p>Dinner</p>
+        </div>
+
+        
+    </div>
+</body>
+</html>
